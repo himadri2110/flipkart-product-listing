@@ -14,7 +14,14 @@ export const ProductCard = ({ product }) => {
           <div>&#8377; {price}</div>|<div>{gender}</div>
         </div>
 
-        <div>Size: {size}</div>
+        <div>
+          Size:
+          {size.map((size) => (
+            <span className="m-1" key={size}>
+              {size}
+            </span>
+          ))}
+        </div>
       </div>
     </div>
   );

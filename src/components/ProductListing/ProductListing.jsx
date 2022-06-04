@@ -2,6 +2,7 @@ import { useProducts } from "../../contexts/ProductContext";
 import { ProductCard } from "./../ProductCard/ProductCard";
 import { sortBy } from "../../utils/sortBy";
 import { filterBy } from "../../utils/filterBy";
+import { filterBySize } from "../../utils/filterBySize";
 import data from "../../data.json";
 
 export const ProductListing = () => {
@@ -10,11 +11,11 @@ export const ProductListing = () => {
   } = useProducts();
 
   const sortedProducts = sortBy(products, sortByPrice);
-  const filteredBySize = filterBy(sortedProducts, size, "size");
-  const filterByGender = filterBy(filteredBySize, gender, "gender");
-  const filteredByBrand = filterBy(filterByGender, brand, "brand");
+  const filteredByBrand = filterBy(sortedProducts, brand, "brand");
+  const filterByGender = filterBy(filteredByBrand, gender, "gender");
+  const filteredBySize = filterBySize(filterByGender, size);
 
-  const finalFilteredProducts = filteredByBrand;
+  const finalFilteredProducts = filteredBySize;
 
   return (
     <div>

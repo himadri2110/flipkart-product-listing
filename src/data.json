@@ -6,7 +6,7 @@
     "image": "https://rukminim1.flixcart.com/image/880/1056/l1s6z680/sock/8/d/d/free-wpt-5001-whippet-original-imagd9jk94ypsxrr.jpeg?q=50",
     "price": "499",
     "gender": "Male",
-    "size": "M"
+    "size": ["M", "S"]
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "image": "https://rukminim1.flixcart.com/image/880/1056/kzn17680/t-shirt/g/k/9/s-ausk0104-ausk-original-imagbhq5dyscgfgn.jpeg?q=50",
     "price": "1499",
     "gender": "Male",
-    "size": "L"
+    "size": ["M", "L"]
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "image": "https://rukminim1.flixcart.com/image/880/1056/kl2mljk0/t-shirt/a/3/k/4xl-tblhdfulmask-lion-tripr-original-imagy9tcx7q25wym.jpeg?q=50",
     "price": "1399",
     "gender": "Male",
-    "size": "XL"
+    "size": ["S", "XL"]
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "image": "https://rukminim1.flixcart.com/image/880/1056/kpinwy80/dress/n/y/i/m-2frock-183-184-hiva-trendz-original-imag3qdfkhgadwdr.jpeg?q=50",
     "price": "999",
     "gender": "Female",
-    "size": "M"
+    "size": ["M"]
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "image": "https://rukminim1.flixcart.com/image/880/1056/kkfrjww0/t-shirt/w/2/w/m-t312-lmblwh-new-eyebogler-original-imafzs5kagnntn2p.jpeg?q=50",
     "price": "1299",
     "gender": "Male",
-    "size": "S"
+    "size": ["S", "L"]
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "image": "https://rukminim1.flixcart.com/image/880/1056/kkfrjww0/ethnic-set/t/g/g/l-slk-111-black-subh-laxmi-original-imafzsfk2fpgfcwh.jpeg?q=50",
     "price": "2500",
     "gender": "Female",
-    "size": "L"
+    "size": ["L", "XL"]
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "image": "https://rukminim1.flixcart.com/image/880/1056/kyyqpow0/t-shirt/l/t/n/l-t67-wrwh-eyebogler-original-imagb2zyfxb3gg3g.jpeg?q=50",
     "price": "1199",
     "gender": "Male",
-    "size": "XL"
+    "size": ["XL"]
   }, 
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "image": "https://rukminim1.flixcart.com/image/880/1056/ksgehzk0/t-shirt/y/s/e/xxl-tblrdrn-d39-tripr-original-imag6ytkfwpepqwh.jpeg?q=50",
     "price": "1999",
     "gender": "Male",
-    "size": "M"
+    "size": ["M", "L"]
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "image": "https://rukminim1.flixcart.com/image/880/1056/k3ahbww0/t-shirt/m/4/9/s-eb6367-adidas-original-imafmaz6cvnefhkp.jpeg?q=50",
     "price": "1599",
     "gender": "Female",
-    "size": "XL"
+    "size": ["S", "XL"]
   },
   {
     "id": 10,
@@ -87,6 +87,6 @@
     "image": "https://rukminim1.flixcart.com/image/880/1056/jvqzo280/t-shirt/j/p/f/m-fj9216-adidas-original-imafgkj5ktfuzzhg.jpeg?q=50",
     "price": "999",
     "gender": "Male",
-    "size": "S"
+    "size": ["S", "L", "XL"]
   }
 ]
