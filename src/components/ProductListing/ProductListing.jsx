@@ -16,7 +16,6 @@ export const ProductListing = () => {
 
   const finalFilteredProducts = filteredByBrand;
 
-  console.log(gender);
   return (
     <div>
       {finalFilteredProducts.length ? (
